@@ -25,7 +25,7 @@ import org.tribot.script.interfaces.Painting;
  *
  */
 @ScriptManifest(authors="jzhao", category="Woodcutting",name="James's Woodcutter")
-public class Fisher extends Script implements Painting {
+public class Cutter extends Script implements Painting {
 
     private final int[] GEAR = {1351, 1352};
     private final int[] TREE_ID = {678, 1276, 1277, 1278, 1280};
